@@ -1,0 +1,49 @@
+{
+	"name": "@6arshid/statistics-em",
+	"version": "1.0.0",
+	"description": "Real-time visit analytics plugin for EmDash CMS — tracks and displays page view metrics with daily and historical breakdowns",
+	"type": "module",
+	"main": "dist/index.mjs",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"types": "./dist/index.d.mts"
+		},
+		"./sandbox": "./dist/sandbox-entry.mjs"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"emdash",
+		"cms",
+		"plugin",
+		"statistics",
+		"analytics",
+		"visits"
+	],
+	"author": {
+		"name": "6arshid",
+		"url": "https://github.com/6arshid/"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"emdash": "workspace:>=0.1.0"
+	},
+	"devDependencies": {
+		"tsdown": "catalog:",
+		"typescript": "catalog:",
+		"vitest": "catalog:"
+	},
+	"scripts": {
+		"build": "tsdown src/index.ts src/sandbox-entry.ts --format esm --dts --clean",
+		"dev": "tsdown src/index.ts src/sandbox-entry.ts --format esm --dts --watch",
+		"test": "vitest run",
+		"typecheck": "tsgo --noEmit"
+	},
+	"homepage": "https://github.com/6arshid/statistics-em",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/6arshid/statistics-em.git"
+	}
+}
