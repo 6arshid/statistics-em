@@ -4,32 +4,7 @@
 
 A privacy-focused, full-featured analytics plugin for [EmDash CMS](https://github.com/emdash-cms/emdash). Tracks visitors, sessions, devices, content performance, and SEO metrics — all without cookies or third-party scripts.
 
----
 
-## Developers
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/6arshid">
-        <img src="https://github.com/6arshid.png" width="80" height="80" style="border-radius:50%" alt="6arshid"/><br/>
-        <sub><b>6arshid</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/hassantafreshi">
-        <img src="https://github.com/hassantafreshi.png" width="80" height="80" style="border-radius:50%" alt="hassantafreshi"/><br/>
-        <sub><b>Hassan Tafreshi</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/aminkhadivar">
-        <img src="https://github.com/aminkhadivar.png" width="80" height="80" style="border-radius:50%" alt="aminkhadivar"/><br/>
-        <sub><b>Amin Khadivar</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -239,7 +214,32 @@ The plugin registers three admin dashboard widgets:
 
 - EmDash CMS
 - Node.js 18+
+---
 
+## Developers
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/6arshid">
+        <img src="https://github.com/6arshid.png" width="80" height="80" style="border-radius:50%" alt="6arshid"/><br/>
+        <sub><b>6arshid</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/hassantafreshi">
+        <img src="https://github.com/hassantafreshi.png" width="80" height="80" style="border-radius:50%" alt="hassantafreshi"/><br/>
+        <sub><b>Hassan Tafreshi</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/aminkhadivar">
+        <img src="https://github.com/aminkhadivar.png" width="80" height="80" style="border-radius:50%" alt="aminkhadivar"/><br/>
+        <sub><b>Amin Khadivar</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 ---
 
 ## License
