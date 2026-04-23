@@ -244,4 +244,4 @@ The plugin registers three admin dashboard widgets:
 
 ## License
 
-MIT © [6arshid](https://github.com/6arshid)
+MIT 
